@@ -1,0 +1,7 @@
+@import "common/styles/variables";
+
+.container {
+  display: flex;
+  justify-content: center;
+  background-color: $backgroundColor;
+}

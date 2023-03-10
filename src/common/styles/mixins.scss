@@ -1,0 +1,6 @@
+@mixin text ($fontWeight, $fontSize, $lineHeight, $fontFamily) {
+  font-weight: $fontWeight;
+  font-size: $fontSize;
+  line-height: $lineHeight;
+  font-family: $fontFamily;
+}
