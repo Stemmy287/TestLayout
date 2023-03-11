@@ -6,5 +6,41 @@
   flex-direction: column;
   background-color: $backgroundColor;
   justify-content: space-between;
-  height: 100vh;
+  min-height: 100vh;
+  position: relative;
+  padding: 0 150px;
+  @media screen and (max-width: 970px) {
+    padding: 0 70px;
+  }
+  .backGroundBalls {
+    position: fixed;
+
+    .purpleLight {
+      position: fixed;
+      left: 15%;
+    }
+
+    .purpleBall {
+      position: fixed;
+      right: 43%;
+      top: 0
+    }
+
+    .redBall {
+      position: fixed;
+      left: 32%;
+      top: 6%;
+    }
+
+    .redBallSmall {
+      position: fixed;
+      right: 35%;
+      bottom: 39%;
+    }
+
+    .redLight {
+      position: fixed;
+      left: 0;
+    }
+  }
 }

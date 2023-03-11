@@ -1,0 +1,17 @@
+@import "../../../../common/styles/mixins";
+
+.giftContainer {
+
+  h3 {
+    @include text(500, 18px, 22px, 'Montserrat');
+    text-transform: uppercase;
+    margin: 0 0 7px 0;
+  }
+
+  span {
+    @include text(400, 16px, 20px, 'Montserrat');
+    opacity: .9;
+    width: 140px;
+    display: inline-block;
+  }
+}

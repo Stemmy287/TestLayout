@@ -5,104 +5,36 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  width: 75%;
+  width: 100%;
   row-gap: 41px;
   margin-bottom: 20px;
+  z-index: 1;
+
   .footerContent {
     display: flex;
     justify-content: space-between;
     width: 100%;
 
-    .lists {
+    .aboutCompany {
       display: flex;
       justify-content: space-between;
       column-gap: 100px;
-
       .menu {
         display: flex;
         column-gap: 50px;
-
-        ul {
-
-          list-style-type: none;
-          margin: 0;
-          padding: 0;
-          display: flex;
-          flex-direction: column;
-
-          row-gap: 10px;
-
-          .header {
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            @include text(700, 14px, 17px, 'Inter');
-            opacity: .4;
-            margin-bottom: 10px;
-            height: 17px;
-          }
-
-          li {
-            @include text(400, 16px, 19px, 'Inter');
-            text-transform: none;
-          }
-        }
       }
-
-      ul {
-
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        display: flex;
+      @media screen and (max-width: 970px) {
+        column-gap: 0;
         flex-direction: column;
-
-        row-gap: 10px;
-
-        .header {
-          letter-spacing: 0.05em;
-          text-transform: uppercase;
-          @include text(700, 14px, 17px, 'Inter');
-          opacity: .4;
-          margin-bottom: 10px;
-          height: 17px;
-        }
-
-        li {
-          @include text(400, 16px, 19px, 'Inter');
-          text-transform: none;
-        }
+        width: 100%;
+        row-gap: 41px;
       }
     }
 
-    .contacts {
-      ul {
 
-        list-style-type: none;
-        margin: 0;
-        display: flex;
-        flex-direction: column;
-        row-gap: 20px;
-        text-align: end;
-
-        .header {
-          letter-spacing: 0.05em;
-          text-transform: uppercase;
-          @include text(700, 14px, 17px, 'Inter');
-          opacity: .4;
-          height: 17px;
-        }
-
-        li {
-          @include text(400, 16px, 19px, 'Inter');
-          text-transform: none;
-
-          .socialLogos {
-            display: flex;
-            justify-content: end;
-            column-gap: 12px;
-          }
-        }
-      }
+    @media screen and (max-width: 970px) {
+      flex-wrap: wrap;
+      row-gap: 41px;
     }
   }
 
@@ -110,12 +42,21 @@
     display: flex;
     flex-direction: column;
     text-align: end;
+
     span {
       @include text(400, 12px, 15px, 'Montserrat');
     }
+
     a {
       @include text(400, 12px, 15px, 'Montserrat');
       text-decoration: underline;
     }
+    @media screen and (max-width: 970px) {
+      text-align: start;
+    }
   }
+
 }
+
+
+

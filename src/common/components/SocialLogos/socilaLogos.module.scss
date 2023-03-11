@@ -1,0 +1,13 @@
+.socialLogos {
+  display: flex;
+  justify-content: end;
+  column-gap: 12px;
+  @media screen and (max-width: 970px) {
+    justify-content: start;
+  }
+}
+
+.bigGap {
+  column-gap: 30px;
+  margin-top: 5px;
+}

@@ -2,8 +2,9 @@
 
 .mainContainer {
   display: flex;
-  width: 75%;
+  width: 100%;
   justify-content: space-between;
+  z-index: 1;
 
   .welbex {
     display: flex;
@@ -28,46 +29,7 @@
     }
   }
 
-  .gifts {
-    display: flex;
-    flex-direction: column;
-    width: 300px;
-    text-align: right;
-
-    .title {
-      @include text(400, 18px, 22px, 'Inter');
-      margin-bottom: 39px;
-
-      b {
-        background: linear-gradient(92deg, #FCB045 27.14%, #FD1D1D 121.36%), #E4E5EA;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-transform: uppercase;
-      }
-    }
-
-    .giftsList {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      row-gap: 30px;
-      column-gap: 20px;
-
-      .gift {
-
-        h3 {
-          @include text(500, 18px, 22px, 'Montserrat');
-          text-transform: uppercase;
-          margin: 0 0 7px 0;
-        }
-
-        span {
-          @include text(400, 16px, 20px, 'Montserrat');
-          opacity: .9;
-          width: 140px;
-          display: inline-block;
-        }
-      }
-    }
+  @media screen and (max-width: 1020px) {
+    justify-content: center;
   }
 }

@@ -3,33 +3,54 @@
 
 .headerContainer {
   display: flex;
-  width: 75%;
+  width: 100%;
   padding: 41px 0 0 0;
   justify-content: space-between;
-  .company {
-    width: 141px;
+  z-index: 1;
 
-    .logo {
-      display: flex;
-      column-gap: 7px;
-      align-items: center;
-    }
-
-    p {
-      @include text(300, 10px, 12px, 'Montserrat');
-      opacity: 0.6;
-    }
-  }
-
-  .navigate {
+  .leftBlock {
     display: flex;
-    column-gap: 25px;
+    column-gap: 60px;
 
-    a {
-      text-decoration: none;
-      @include text(500, 16px, 27px, 'Inter');
+    .company {
+      width: 141px;
+
+      .logo {
+        display: flex;
+        column-gap: 7px;
+        align-items: center;
+
+      }
+
+      p {
+        @include text(300, 10px, 12px, 'Montserrat');
+        opacity: 0.6;
+      }
+
+      @media screen and (max-width: 970px) {
+        display: none;
+      }
+    }
+
+    .navigate {
+      display: flex;
+      column-gap: 25px;
+
+      a {
+        text-decoration: none;
+        @include text(500, 16px, 27px, 'Inter');
+      }
+    }
+
+    @media screen and (max-width: 1330px) {
+      justify-content: space-between;
+      width: 100%;
+    }
+    @media screen and (max-width: 970px) {
+      justify-content: center;
     }
   }
+
 
   .contacts {
     display: flex;
@@ -37,12 +58,11 @@
 
     .number {
       @include text(500, 16px, 27px, 'Inter');
+      cursor: pointer;
     }
 
-    .socialLogos {
-      display: flex;
-      column-gap: 30px;
-      margin-top: 5px;
+    @media screen and (max-width: 1330px) {
+      display: none;
     }
   }
 }
