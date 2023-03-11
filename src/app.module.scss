@@ -2,6 +2,9 @@
 
 .container {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background-color: $backgroundColor;
+  justify-content: space-between;
+  height: 100vh;
 }

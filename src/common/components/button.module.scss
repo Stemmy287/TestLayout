@@ -1,10 +1,15 @@
 @import "../../common/styles/mixins";
 @import "../../common/styles/variables";
 
-.button {
-  width: 262px;
-  height: 61px;
-  background-color: #4077F3;
-  border: none;
-  @include text(500, 16px, 19px, 'Inter');
+.buttonContainer {
+  margin-top: 60px;
+
+  .button {
+    width: 262px;
+    height: 61px;
+    background-color: #4077F3;
+    border: none;
+    @include text(500, 16px, 19px, 'Inter');
+  }
 }
+
