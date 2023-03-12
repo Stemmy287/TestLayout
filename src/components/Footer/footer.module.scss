@@ -22,6 +22,9 @@
       .menu {
         display: flex;
         column-gap: 50px;
+        @media screen and (max-width: 480px) {
+          column-gap: 21px;
+        }
       }
       @media screen and (max-width: 970px) {
         column-gap: 0;
@@ -55,7 +58,13 @@
       text-align: start;
     }
   }
-
+  @media screen and (max-width: 750px) {
+    background-color: $backgroundColor;
+    padding: 50px 41px 0 41px;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 0 17px;
+  }
 }
 
 

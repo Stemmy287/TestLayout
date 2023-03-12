@@ -14,19 +14,19 @@ export const Footer = () => {
     <footer className={s.footerContainer}>
       <div className={s.footerContent}>
         <div className={s.aboutCompany}>
-          <List header={'О компании'} arrLi={aboutCompany}/>
+          <List header="О компании" arrLi={aboutCompany}/>
           <div className={s.menu}>
-            <List header={'Меню'} arrLi={menuFirstColumn}/>
+            <List header="Меню" arrLi={menuFirstColumn}/>
             <List header={''} arrLi={menuSecondColumn}/>
           </div>
         </div>
         <div>
-          <List contacts header={'Контакты'} arrLi={contacts}/>
+          <List contacts header="Контакты" arrLi={contacts}/>
         </div>
       </div>
       <div className={s.confidential}>
         <span>©WELBEX 2022. Все права защищены.</span>
-        <a href={'#/'}>Политика конфиденциальности</a>
+        <a href="#/">Политика конфиденциальности</a>
       </div>
     </footer>
   );

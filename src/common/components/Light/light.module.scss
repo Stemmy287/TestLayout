@@ -1,0 +1,66 @@
+.backGroundBallsContainer {
+  position: fixed;
+
+  .purpleLight {
+    position: fixed;
+    left: 15%;
+    @media screen and (max-width: 480px) {
+      top: 1%;
+      left: -65%;
+      transform: rotate(90deg);
+    }
+    @media screen and (max-width: 350px) {
+      top: 1%;
+      left: -130%;
+      transform: rotate(90deg);
+    }
+  }
+
+  .purpleBall {
+    position: fixed;
+    right: 43%;
+    top: 0;
+    @media screen and (max-width: 480px) {
+      top: 35%;
+      right: -2%;
+      transform: rotate(90deg);
+      filter: blur(7px);
+    }
+  }
+
+  .redBall {
+    position: fixed;
+    left: 32%;
+    top: 6%;
+    @media screen and (max-width: 480px) {
+      top: 46%;
+      left: 7%;
+      width: 80px;
+      transform: rotate(90deg);
+      filter: blur(7px);
+    }
+  }
+
+  .redBallSmall {
+    position: fixed;
+    right: 35%;
+    bottom: 39%;
+    @media screen and (max-width: 480px) {
+      top: -30%;
+      left: -85%;
+      width: 300px;
+      background-color: #E4E5EA;
+      transform: rotate(90deg);
+      filter: blur(115px);
+      opacity: .7;
+    }
+  }
+
+  .redLight {
+    position: fixed;
+    left: 0;
+    @media screen and (max-width: 480px) {
+      left: 0;
+    }
+  }
+}

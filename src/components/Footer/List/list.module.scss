@@ -15,12 +15,18 @@
     opacity: .4;
     margin-bottom: 10px;
     height: 17px;
+    @media screen and (max-width: 480px) {
+      @include text(700, 12px, 15px, 'Inter');
+    }
   }
 
   li {
     a {
       @include text(400, 16px, 19px, 'Inter');
       text-decoration: none;
+      @media screen and (max-width: 480px) {
+        @include text(400, 14px, 17px, 'Inter');
+      }
     }
   }
 }

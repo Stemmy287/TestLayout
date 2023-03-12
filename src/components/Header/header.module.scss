@@ -35,19 +35,28 @@
     .navigate {
       display: flex;
       column-gap: 25px;
-
       a {
         text-decoration: none;
         @include text(500, 16px, 27px, 'Inter');
+        @media screen and (max-width: 480px) {
+          @include text(400, 13px, 21px, 'Inter');
+        }
+      }
+      .certificates {
+        @media screen and (max-width: 584px) {
+          display: none;
+        }
+      }
+      @media screen and (max-width: 970px) {
+        justify-content: space-between;
+        width: 100%;
+        column-gap: 0;
       }
     }
 
     @media screen and (max-width: 1330px) {
       justify-content: space-between;
       width: 100%;
-    }
-    @media screen and (max-width: 970px) {
-      justify-content: center;
     }
   }
 
@@ -63,6 +72,14 @@
 
     @media screen and (max-width: 1330px) {
       display: none;
+
     }
+  }
+  @media screen and (max-width: 750px) {
+    background-color: $backgroundColor;
+    padding: 17px 41px;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 17px 17px;
   }
 }

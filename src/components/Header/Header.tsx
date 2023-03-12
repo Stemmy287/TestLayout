@@ -9,7 +9,7 @@ export const Header = () => {
     <header className={s.headerContainer}>
       <div className={s.leftBlock}>
         <div className={s.company}>
-          <a href={'/#'} className={s.logo}>
+          <a href="/#" className={s.logo}>
             <Logo/>
             <TextLogo/>
           </a>
@@ -20,7 +20,7 @@ export const Header = () => {
           <a href="/#">Виджеты</a>
           <a href="/#">Интеграции</a>
           <a href="/#">Кейсы</a>
-          <a href="/#">Сертификаты</a>
+          <a href="/#" className={s.certificates}>Сертификаты</a>
         </div>
       </div>
       <div className={s.contacts}>

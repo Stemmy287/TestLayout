@@ -12,5 +12,8 @@
     @include text(500, 16px, 19px, 'Inter');
     cursor: pointer;
   }
+  @media screen and (max-width: 1020px) {
+    display: none;
+  }
 }
 

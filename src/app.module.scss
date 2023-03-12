@@ -12,35 +12,16 @@
   @media screen and (max-width: 970px) {
     padding: 0 70px;
   }
-  .backGroundBalls {
-    position: fixed;
 
-    .purpleLight {
-      position: fixed;
-      left: 15%;
-    }
-
-    .purpleBall {
-      position: fixed;
-      right: 43%;
-      top: 0
-    }
-
-    .redBall {
-      position: fixed;
-      left: 32%;
-      top: 6%;
-    }
-
-    .redBallSmall {
-      position: fixed;
-      right: 35%;
-      bottom: 39%;
-    }
-
-    .redLight {
-      position: fixed;
-      left: 0;
-    }
+  @media screen and (max-width: 970px) {
+    padding: 0 70px;
+    row-gap: 50px;
+  }
+  @media screen and (max-width: 750px) {
+    padding: 0 41px;
+    row-gap: 50px;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 0 17px;
   }
 }

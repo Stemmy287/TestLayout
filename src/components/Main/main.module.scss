@@ -5,11 +5,19 @@
   width: 100%;
   justify-content: space-between;
   z-index: 1;
+  position: relative;
+  img {
+    position: fixed;
+    display: none;
+    @media screen and (max-width: 750px) {
+      display: inline-block;
+    }
+  }
 
   .welbex {
     display: flex;
     flex-direction: column;
-    width: 400px;
+    width: 300px;
 
     span {
       @include text(400, 48px, 58px, 'Montserrat');
@@ -19,17 +27,32 @@
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
       }
+
+      @media screen and (max-width: 480px) {
+        @include text(400, 34px, 40px, 'Montserrat');
+      }
     }
 
     p {
       width: 300px;
-      margin-top: 30px;
       @include text(400, 18px, 22px, 'Montserrat');
       opacity: .8;
+    }
+    @media screen and (max-width: 480px) {
+      width: 270px;
     }
   }
 
   @media screen and (max-width: 1020px) {
     justify-content: center;
+    flex-direction: column;
+    row-gap: 39px;
+    padding: 0 70px;
+  }
+  @media screen and (max-width: 1020px) {
+    padding: 0 41px;
+  }
+  @media screen and (max-width: 480px) {
+    padding: 0 17px;
   }
 }
