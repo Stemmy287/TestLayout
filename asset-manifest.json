@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/TestLayout/static/css/main.0d3fff53.css",
+    "main.js": "/TestLayout/static/js/main.d2dd3846.js",
+    "static/js/787.28cb0dcd.chunk.js": "/TestLayout/static/js/787.28cb0dcd.chunk.js",
+    "static/media/red light.png": "/TestLayout/static/media/red light.fda81e69923c0a0c9ff2.png",
+    "static/media/purple light.png": "/TestLayout/static/media/purple light.666f5778c34b34454fa4.png",
+    "static/media/noise.png": "/TestLayout/static/media/noise.ac366e06919c250d91f6.png",
+    "static/media/red ball-1.png": "/TestLayout/static/media/red ball-1.da8b4bec0a37f4079854.png",
+    "static/media/purple ball.png": "/TestLayout/static/media/purple ball.4a2971e9f30e2479bec6.png",
+    "static/media/textLogo.svg": "/TestLayout/static/media/textLogo.b868aa258aeef44f83767fa10208a23c.svg",
+    "static/media/whatsapp.svg": "/TestLayout/static/media/whatsapp.c3d7a933a8355b23bc435ff74d3849c1.svg",
+    "static/media/phone.svg": "/TestLayout/static/media/phone.cf9c56ecdadaadbb83004223aedc739c.svg",
+    "index.html": "/TestLayout/index.html",
+    "static/media/logo.svg": "/TestLayout/static/media/logo.a60185b2a955d7a8ed3850ac6d004388.svg",
+    "static/media/telegram.svg": "/TestLayout/static/media/telegram.ec28ad3ae01fc187af4c6626094c876b.svg",
+    "static/media/dash.svg": "/TestLayout/static/media/dash.e54c78534812ceaf5439f1313ba9da98.svg",
+    "main.0d3fff53.css.map": "/TestLayout/static/css/main.0d3fff53.css.map",
+    "main.d2dd3846.js.map": "/TestLayout/static/js/main.d2dd3846.js.map",
+    "787.28cb0dcd.chunk.js.map": "/TestLayout/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0d3fff53.css",
+    "static/js/main.d2dd3846.js"
+  ]
+}
