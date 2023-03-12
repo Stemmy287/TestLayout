@@ -9,18 +9,18 @@ export const Header = () => {
     <header className={s.headerContainer}>
       <div className={s.leftBlock}>
         <div className={s.company}>
-          <a href="/#" className={s.logo}>
+          <a href="/" className={s.logo}>
             <Logo/>
             <TextLogo/>
           </a>
           <p>крупный интегратор CRM в Росcии и ещё 8 странах</p>
         </div>
         <div className={s.navigate}>
-          <a href="/#">Услуги</a>
-          <a href="/#">Виджеты</a>
-          <a href="/#">Интеграции</a>
-          <a href="/#">Кейсы</a>
-          <a href="/#" className={s.certificates}>Сертификаты</a>
+          <a href="/">Услуги</a>
+          <a href="/">Виджеты</a>
+          <a href="/">Интеграции</a>
+          <a href="/">Кейсы</a>
+          <a href="/" className={s.certificates}>Сертификаты</a>
         </div>
       </div>
       <div className={s.contacts}>

@@ -21,7 +21,8 @@
   }
 
   li {
-    a {
+    div {
+      cursor: pointer;
       @include text(400, 16px, 19px, 'Inter');
       text-decoration: none;
       @media screen and (max-width: 480px) {

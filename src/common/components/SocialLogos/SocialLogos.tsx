@@ -11,9 +11,9 @@ type Props = {
 export const SocialLogos:FC<Props> = ({bigGap}) => {
   return (
     <div className={bigGap ?`${s.socialLogos} ${s.bigGap}` : s.socialLogos}>
-      <a href="/#"><Telegram/></a>
-      <a href="/#"><Viber/></a>
-      <a href="/#"><Whatsapp/></a>
+      <a href="/"><Telegram/></a>
+      <a href="/"><Viber/></a>
+      <a href="/"><Whatsapp/></a>
     </div>
   );
 };

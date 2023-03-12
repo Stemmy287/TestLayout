@@ -26,7 +26,7 @@ export const Footer = () => {
       </div>
       <div className={s.confidential}>
         <span>©WELBEX 2022. Все права защищены.</span>
-        <a href="#/">Политика конфиденциальности</a>
+        <a href="/">Политика конфиденциальности</a>
       </div>
     </footer>
   );
